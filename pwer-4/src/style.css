@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="checkbox"] {
+  @apply appearance-none;
+  @apply border;
+  @apply rounded;
+  @apply w-5;
+  @apply h-5;
+  @apply bg-gray-200;
+  @apply checked:bg-blue-600;
+}
+
+input[type="text"] {
+  @apply border rounded-lg py-0.5 px-2 hover:border-blue-600 focus:border-blue-600;
+}
+
+button{
+    @apply bg-blue-500 px-2 rounded hover:bg-blue-300 text-white transition-all duration-200 ease-in-out;
+    @apply disabled:bg-gray-200 disabled:text-gray-500 disabled:cursor-not-allowed;
+}
