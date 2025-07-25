@@ -44,5 +44,6 @@
 ```
 
 # Demo
-![demo-example-1](./demo/demo-pwer4-1.png)
-![demo-example-2](./demo/demo-pwer4-2.png)
+![demo-example-1](./demo/home.png)
+![demo-example-1](./demo/waiting.png)
+![demo-example-2](./demo/game.png)
